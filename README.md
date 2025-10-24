@@ -28,8 +28,8 @@ Two fine-tuned DeBERTa models were employed for email classification, both train
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nightshade.git
-cd nightshade
+git clone https://github.com/MustafaAbdulazizHamza/Nightshade-Filter.git
+cd Nightshade-Filter
 ```
 2. Create virtual environment:
 ```bash
