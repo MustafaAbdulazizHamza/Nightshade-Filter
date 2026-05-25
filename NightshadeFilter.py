@@ -9,8 +9,8 @@ from transformers import pipeline
 from datetime import datetime, timedelta
 import jwt
 import yaml
-BODY_MODEL_NAME = "mustafaAbdulazizHamza/deberta-phishing-detector-body"
-SUBJECT_MODEL_NAME = "mustafaAbdulazizHamza/deberta-phishing-detector-subject"
+BODY_MODEL_NAME = "mustafaAbdulazizHamza/DistilBERT-phishing-detector-body"
+SUBJECT_MODEL_NAME = "mustafaAbdulazizHamza/DistilBERT-phishing-detector-subject"
 
 body_tokenizer = AutoTokenizer.from_pretrained(BODY_MODEL_NAME)
 body_model     = AutoModelForSequenceClassification.from_pretrained(BODY_MODEL_NAME)
